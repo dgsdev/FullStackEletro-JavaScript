@@ -22,3 +22,25 @@ INSERT INTO `fullstackeletro`.`produtos` (`Categoria`, `descrição`, `preco`, `
 INSERT INTO `fullstackeletro`.`produtos` (`Categoria`, `descrição`, `preco`, `preco_venda`, `imagem`) VALUES ('Lava-louças ', 'Lava-louça Eletrolux Inox com 10 serviços, 06 Programas de Lavagem e Painel Blue Touch', '3599.00', '2799.90', '/assets/lavadora.jpeg');
 INSERT INTO `fullstackeletro`.`produtos` (`Categoria`, `descrição`, `preco`, `preco_venda`, `imagem`) VALUES ('Lava-louças ', 'Lava Louça Compacta, 8 Serviços Branca 127V', '1970.50', '1730.61', '/assets/secadora.jpeg');
 
+SELECT * FROM fullstackeletro.produtos where descrição like '%Brastemp%';
+
+SELECT * FROM fullstackeletro.produtos where descrição like '%Lava%';
+
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'fogões ' WHERE (`id` = '17');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'fogões ' WHERE (`id` = '18');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'geladeiras ' WHERE (`id` = '16');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'geladeiras ' WHERE (`id` = '15');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'geladeiras ' WHERE (`id` = '14');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'microondas ' WHERE (`id` = '19');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'microondas ' WHERE (`id` = '20');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'microondas ' WHERE (`id` = '21');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'lavadouras de roupa ' WHERE (`id` = '22');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'lavadouras de roupa ' WHERE (`id` = '23');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'lava-louças ' WHERE (`id` = '24');
+UPDATE `fullstackeletro`.`produtos` SET `categoria` = 'lava-louças ' WHERE (`id` = '25');
+
+SELECT * 
+FROM fullstackeletro.produtos 
+WHERE id='18';
+
+
